@@ -44,23 +44,43 @@
 				
 				<c:choose>
 					<c:when test="${empty providers}">
-						<p></p>No providers have been registered.</p>
+						<p>No providers have been registered.</p>
 					</c:when>
 					<c:otherwise>
 						<c:forEach var="provider" items="${providers}" varStatus="loopStatus">
-							${provider.title}
+							<p>${provider.title}</p>
+							<p>
+							<c:set var="properties" value="${provider.content}" />
+							<table id="properties" class="bordered-table">
+								<tr>
+									<th>Name</th>
+									<th>Value</th>
+								</tr>
+								<c:choose>
+									<c:when test="${empty properties}">
+										<tr class="name-sublevel1-odd">
+											<td id="property_null" colspan="2">No properties have been registered.</td>
+										</tr>
+									</c:when>
+									<c:otherwise>
+										<c:forEach var="property" items="${properties}" varStatus="loopStatus">
+											<c:set var="rowStyle" value="odd" scope="page" />
+											<c:if test="${(loopStatus.index % 2) eq 0}">
+												<c:set var="rowStyle" value="even" scope="page" />
+											</c:if>
+												<tr class="sublevel1-${rowStyle}">
+												<td id="property_key">${property.key}</td>
+												<td id="property_value">${property.value}</td>
+											</tr>
+											<c:remove var="rowStyle" />
+										</c:forEach>
+									</c:otherwise>
+								</c:choose>
+							</table>
+							</p>
 						</c:forEach>
 					</c:otherwise>
 				</c:choose>
-
-				
-				
-				
-				
-				
-				
-
-				
 			</div><!-- /content -->
 		</div><!-- /container -->
 

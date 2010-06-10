@@ -5,10 +5,10 @@
         xsi:schemaLocation="http://www.springsource.org/schema/dm-server/plan 
                             http://www.springsource.org/schema/dm-server/plan/springsource-dm-server-plan.xsd">
 
-        <artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.properties" version="[1.0, 2.0)"/>
-		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.provider.one" version="[1.0, 2.0)"/>
-		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.provider.two" version="[1.0, 2.0)"/>
-		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.provider.three" version="[1.0, 2.0)"/>
-		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.web" version="[1.0, 2.0)"/>
+		<artifact type="configuration" name="org.eclipse.virgo.sample.dynamic.properties" version="[0.0, 2.0)"/>
+		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.core" version="[0.0, 2.0)"/>
+		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.provider.one" version="[0.0, 2.0)"/>
+		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.provider.two" version="[0.0, 2.0)"/>
+		<artifact type="bundle" name="org.eclipse.virgo.sample.dynamic.cweb" version="[0.0, 2.0)"/>
 
 </plan>
