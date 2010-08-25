@@ -34,11 +34,11 @@
 	<classpathentry kind="var" path="DYNAMISM_IVY_CACHE/org.eclipse.osgi/org.eclipse.osgi/3.5.1.R35x_v20091005/org.eclipse.osgi-3.5.1.R35x_v20091005.jar" sourcepath="/DYNAMISM_IVY_CACHE/org.eclipse.osgi/org.eclipse.osgi/3.5.1.R35x_v20091005/org.eclipse.osgi-sources-3.5.1.R35x_v20091005.jar"/>
 	<classpathentry kind="var" path="DYNAMISM_IVY_CACHE/org.apache.felix/org.apache.felix.configadmin/1.2.4/org.apache.felix.configadmin-1.2.4.jar" sourcepath="/DYNAMISM_IVY_CACHE/org.apache.felix/org.apache.felix.configadmin/1.2.4/org.apache.felix.configadmin-sources-1.2.4.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.virgo.sample.dynamic.core"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.springsource.server.ide.server.core.runtime.classpath/Virgo Web Server (Runtime) v2.1">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.virgo.sample.dynamic.core"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

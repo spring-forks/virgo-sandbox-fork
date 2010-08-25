@@ -37,11 +37,6 @@
 					The following content providers have been found.
 				</p>
 				
-				
-				
-				
-				
-				
 				<c:choose>
 					<c:when test="${empty providers}">
 						<p>No providers have been registered.</p>
@@ -49,7 +44,6 @@
 					<c:otherwise>
 						<c:forEach var="provider" items="${providers}" varStatus="loopStatus">
 							<p>${provider.title}</p>
-							<p>
 							<c:set var="properties" value="${provider.content}" />
 							<table id="properties" class="bordered-table">
 								<tr>
@@ -77,7 +71,6 @@
 									</c:otherwise>
 								</c:choose>
 							</table>
-							</p>
 						</c:forEach>
 					</c:otherwise>
 				</c:choose>
