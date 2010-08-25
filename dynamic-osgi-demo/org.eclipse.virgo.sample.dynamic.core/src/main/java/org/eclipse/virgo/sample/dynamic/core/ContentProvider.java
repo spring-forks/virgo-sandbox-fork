@@ -21,13 +21,13 @@ public interface ContentProvider {
     /**
      * A descriptive title for this content
      * 
-     * @return
+     * @return a title
      */
     String getTitle();
     
     /**
      * 
-     * @return
+     * @return a map
      */
     Map<String, String> getContent();
 

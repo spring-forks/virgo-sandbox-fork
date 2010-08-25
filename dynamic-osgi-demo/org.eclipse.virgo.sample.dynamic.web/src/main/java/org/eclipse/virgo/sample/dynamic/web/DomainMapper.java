@@ -26,24 +26,18 @@ import org.eclipse.virgo.sample.dynamic.core.ContentProvider;
 
 /**
  * @author Christopher Frost
- * @since 2.1
  */
 final class DomainMapper {
 
 
-    private List<ContentProvider> providers;
+    private final List<ContentProvider> providers;
     
     
-    /**
-     * 
-     */
     public DomainMapper(List<ContentProvider> providers) {
         this.providers = providers;
     }
 
-    /**
-     * @return 
-     */
+    
     public List<ContentProvider> getProviders() {
         return providers;
     }

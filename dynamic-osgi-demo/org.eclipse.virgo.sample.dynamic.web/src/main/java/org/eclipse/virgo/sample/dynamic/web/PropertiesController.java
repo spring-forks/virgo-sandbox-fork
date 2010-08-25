@@ -17,14 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * <p>
- * TODO Document AppController
- * </p>
- *
- * <strong>Concurrent Semantics</strong><br />
- *
- * TODO Document concurrent semantics of AppController
- *
+ * AppController
  */
 @Controller
 @RequestMapping("/properties")
@@ -35,6 +28,7 @@ public final class PropertiesController {
     
     /**
      * Custom handler for displaying a list of properties.
+     * @return ModelAndView
      */
     @RequestMapping("/overview")
     public ModelAndView information() {
