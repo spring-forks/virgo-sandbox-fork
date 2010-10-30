@@ -26,8 +26,8 @@
 		<dependency org="org.springframework" name="org.springframework.beans" rev="${org.springframework}" conf="provided->runtime"/>
 		<dependency org="org.springframework.osgi" name="org.springframework.osgi.core" rev="${org.springframework.osgi}" conf="provided->runtime"/>		
 		<!-- === TEST ====================================================== -->
-		<dependency org="org.junit" name="com.springsource.org.junit" rev="${org.junit.spring.3}" conf="test->runtime"/>
-		<dependency org="com.springsource.osgi.test" name="com.springsource.osgi.test.stubs" rev="${com.springsource.osgi.test.stubs}" conf="test->runtime"/>
+		<dependency org="org.junit" name="com.springsource.org.junit" rev="${org.junit}" conf="test->runtime"/>
+		<dependency org="org.eclipse.virgo.teststubs" name="org.eclipse.virgo.teststubs.osgi" rev="${org.eclipse.virgo.teststubs}" conf="test->runtime"/>
 		
 	</dependencies>
 

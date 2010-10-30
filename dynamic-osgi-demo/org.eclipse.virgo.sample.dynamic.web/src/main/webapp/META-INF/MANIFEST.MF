@@ -9,19 +9,19 @@ Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.eclipse.virgo.sample.dynamic.web
 Web-ContextPath: dynamic-sample
 Import-Package: javax.servlet.jsp.jstl.core;version="[1.1.2,1.2.0)",or
- g.apache.juli.logging.impl;version="[6.0.16,6.1)",org.eclipse.virgo.s
- ample.dynamic.core;version="[1.0,2.0)",org.eclipse.virgo.web.dm;versi
- on="[2.0.0,3.0.0)",org.springframework.beans.factory.annotation;versi
- on="[3.0,4.0)",org.springframework.beans.factory.xml;version="[3.0,3.
- 1)",org.springframework.context.config;version="[3.0, 3.1)",org.sprin
- gframework.context.support;version="[3.0,3.1)",org.springframework.js
- .resource;version="[2.0.7.RELEASE,3.0.0)",org.springframework.stereot
- ype;version="[3.0,4.0)",org.springframework.web.bind.annotation;versi
- on="[3.0,4.0)",org.springframework.web.context;version="[3.0,3.1)",or
- g.springframework.web.context.support;version="[3.0,3.1)",org.springf
- ramework.web.servlet;version="[3.0,4.0)",org.springframework.web.serv
- let.handler;version="[3.0,3.1)",org.springframework.web.servlet.mvc;v
- ersion="[3.0,3.1)",org.springframework.web.servlet.mvc.annotation;ver
- sion="[3.0,3.1)",org.springframework.web.servlet.support;version="[3.
- 0,3.1)",org.springframework.web.servlet.view;version="[3.0,3.1)"
+ g.eclipse.virgo.sample.dynamic.core;version="[1.0,2.0)",org.eclipse.v
+ irgo.web.dm;version="[2.0.0,3.0.0)",org.springframework.beans.factory
+ .annotation;version="[3.0,4.0)",org.springframework.beans.factory.xml
+ ;version="[3.0,3.1)",org.springframework.context.config;version="[3.0
+ , 3.1)",org.springframework.context.support;version="[3.0,3.1)",org.s
+ pringframework.js.resource;version="[2.0.7.RELEASE,3.0.0)",org.spring
+ framework.stereotype;version="[3.0,4.0)",org.springframework.web.bind
+ .annotation;version="[3.0,4.0)",org.springframework.web.context;versi
+ on="[3.0,3.1)",org.springframework.web.context.support;version="[3.0,
+ 3.1)",org.springframework.web.servlet;version="[3.0,4.0)",org.springf
+ ramework.web.servlet.handler;version="[3.0,3.1)",org.springframework.
+ web.servlet.mvc;version="[3.0,3.1)",org.springframework.web.servlet.m
+ vc.annotation;version="[3.0,3.1)",org.springframework.web.servlet.sup
+ port;version="[3.0,3.1)",org.springframework.web.servlet.view;version
+ ="[3.0,3.1)"
 

@@ -16,6 +16,6 @@ org.apache.felix=1.2.4
 org.apache.felix.eventadmin=1.0.0
 
 # Test
-org.eclipse.virgo.teststubs=1.0.0.D-20100331092743
-org.eclipse.virgo.test=2.1.0.D-20100331093519
+org.eclipse.virgo.teststubs=2.1.0.RELEASE
+org.eclipse.virgo.test=2.1.0.RELEASE
 org.junit=4.7.0

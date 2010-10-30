@@ -30,7 +30,6 @@ Import-Package:
  org.springframework.context.support;version="[3.0,3.1)",
  org.springframework.context.config;version="[3.0, 3.1)",
  org.springframework.beans.factory.xml;version="[3.0,3.1)",
- org.springframework.js.resource;version="[2.0.7.RELEASE,3.0.0)",
- org.apache.juli.logging.impl;version="[6.0.16,6.1)"
+ org.springframework.js.resource;version="[2.0.7.RELEASE,3.0.0)"
 Excluded-Exports: *
 Web-ContextPath: dynamic-sample
